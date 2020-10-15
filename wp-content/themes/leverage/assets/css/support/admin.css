@@ -1,0 +1,464 @@
+/*----------------------------------------------
+*
+* [RTL Admin Stylesheet]
+*
+* Theme    : Leverage - Creative Agency, Corporate and Portfolio. Multipurpose Theme.
+* Version  : 1.1.0
+* Author   : Codings
+* Support  : adm.codings@gmail.com
+* 
+----------------------------------------------*/
+
+/*----------------------------------------------
+
+[ALL CONTENTS]
+
+1. Support
+2. OCDI
+
+----------------------------------------------*/
+
+/*----------------------------------------------
+1. Support
+----------------------------------------------*/
+
+/* #region Support */
+
+.acf-field input[type="text"], .acf-field input[type="password"], .acf-field input[type="date"], .acf-field input[type="datetime"], .acf-field input[type="datetime-local"], .acf-field input[type="email"], .acf-field input[type="month"], .acf-field input[type="number"], .acf-field input[type="search"], .acf-field input[type="tel"], .acf-field input[type="time"], .acf-field input[type="url"], .acf-field input[type="week"], .acf-field textarea, .acf-field select {
+    border-color: #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    box-shadow: none!important;
+}
+
+.acf-settings-wrap input[type=checkbox]:focus, .acf-settings-wrap input[type=color]:focus, .acf-settings-wrap input[type=date]:focus, .acf-settings-wrap input[type=datetime-local]:focus, .acf-settings-wrap input[type=datetime]:focus, .acf-settings-wrap input[type=email]:focus, .acf-settings-wrap input[type=month]:focus, .acf-settings-wrap input[type=number]:focus, .acf-settings-wrap input[type=password]:focus, .acf-settings-wrap input[type=radio]:focus, .acf-settings-wrap input[type=search]:focus, .acf-settings-wrap input[type=tel]:focus, .acf-settings-wrap input[type=text]:focus, .acf-settings-wrap input[type=time]:focus, .acf-settings-wrap input[type=url]:focus, .acf-settings-wrap input[type=week]:focus, .acf-settings-wrap select:focus, .acf-settings-wrap textarea:focus, input[type=search]:focus {
+    border-color: #1e50bc!important;
+    box-shadow: none;
+    outline: none;
+}
+
+.acf-range-wrap input[type="number"] {
+    min-width: 4.2em;
+}
+
+.acf-range-wrap input[type="range"] {
+    width: 120px;
+}
+
+.acf-settings-wrap .button-primary {
+    background: #1E50BC!important;
+    border-color: #1E50BC!important;
+    border-radius: 4px!important;
+    padding: 3px 20px!important;
+    margin-right: 0!important;
+}
+
+.wp-core-ui .button-primary.disabled {
+    background: #1E50BC!important;
+    border-color: #1E50BC!important;
+    border-radius: 4px!important;
+    padding: 3px 20px!important;
+    margin-right: 0!important;
+    opacity: 0.6;
+}
+
+.acf-actions .button-primary {
+    background: #1E50BC!important;
+    border-color: #1E50BC!important;
+    border-radius: 4px!important;
+    padding: 3px 20px!important;
+    margin-right: 0!important;
+}
+
+.acf-settings-wrap .wp-core-ui .button, .acf-settings-wrap .wp-core-ui .button-secondary {
+    color: #1e50bc;
+    border-color: #1e50bc;
+    border-radius: 4px;
+}
+
+.acf-button.button {
+    border-radius: 4px;
+    margin: 0 5px;
+}
+
+.select2-container.-acf .select2-selection {
+    border-color: #ccc;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 31px;
+}
+
+.select2-container.-acf .select2-selection:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: #1e50bc;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    padding-left: 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__clear {
+    font-size: 18px;
+    margin-top: -2px;
+    color: #888;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #1e50bc;
+}
+
+.acf-table>thead>tr>th,
+.acf-table>tbody>tr>td {
+    border-color: #ccc;
+}
+
+.acf-postbox .hndle.ui-sortable-handle {
+    border: none;
+}
+
+.acf-field .acf-notice {
+    margin: 0 0 25px;
+    border-radius: 4px;
+}
+
+.leverage-message .acf-notice {
+    margin: 0;
+    color: #0073aa;
+    background: #e8edf8;
+    border-radius: 4px;
+}
+
+.leverage-message-full label:first-child {
+    display: none;
+}
+
+.leverage-message-full {
+    padding: 5px 0 15px 0!important;
+    font-size: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.leverage-message-full:before {
+    content: none!important;
+}
+
+.leverage-message-full .acf-notice {
+    margin: 0;
+    color: #0073aa;
+    background: #e8edf8;
+    border-radius: 4px;
+}
+
+.leverage-message-full .acf-input {
+    width: 100%!important;
+}
+
+.edit-post-layout .leverage-message-full {
+    width: calc(100% - 24px);
+    margin: -12px 12px 0!important;
+}
+
+.acf-fields.-left>.acf-field:before {
+    border: none;
+    background-color: #ffffff;
+}
+
+.acf-button-group label {
+    padding: 6px 12px;
+    border-color: #ccc;
+    border-radius: 0!important;
+}
+
+.acf-button-group label:hover {
+    color: #1E50BC;
+    background: #e8edf8;
+    border-color: #1E50BC;
+    z-index: 2;
+}
+
+.acf-button-group label.selected {
+    background: #1E50BC!important;
+    border-color: #1E50BC!important;
+}
+
+.acf-button-group label.selected:hover {
+    color: #fff!important;
+}
+
+.acf-field .acf-label label {
+    font-weight: 500;
+}
+
+.wp-picker-container .wp-color-result.button {
+    min-height: 30px;
+    margin: 0 6px 6px 0;
+    padding: 0 1px 0 30px;
+    font-size: 11px;
+    border-radius: 0;
+    background-color: #ccc;
+}
+
+.acf-color-picker .wp-color-result,
+.wp-color-result-text {
+    border: none!important;
+}
+
+.wp-core-ui .button-secondary:focus, .wp-core-ui .button.focus, .wp-core-ui .button:focus {
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+.wp-picker-input-wrap .button.button-small {
+    padding: 2px 15px;
+    margin: 0 5px;
+    border-radius: 0;
+    display: none;
+}
+
+.wp-picker-container input[type=text].wp-color-picker {
+    width: 4.5rem;
+    text-align: center;
+    border-radius: 0;
+}
+
+.acf-switch {
+    border-radius: 100px;
+    padding: 0 5px;
+    border-color: #ccc;
+}
+
+.acf-switch .acf-switch-slider {
+    top: 4px;
+    left: 4px;
+    bottom: 4px;
+    border-radius: 0;
+    border-color: #ccc;
+    border-radius: 15px;
+    background-color: #e8edf8;
+}
+
+.acf-switch:hover, .acf-switch.-focus {
+    border-color: #1e50bc;
+    background: #1e50bc;
+    color: #fff;
+}
+
+.acf-switch .acf-switch-on {
+    color: #fff;
+}
+
+.acf-switch.-on {
+    background: #1e50bc;
+    border-color: #1e50bc;
+}
+
+.acf-switch.-on .acf-switch-slider {
+    left: 50%;
+    right: 4px;
+    border-color: #1e50bc;
+    border-radius: 15px;
+    background-color: #e8edf8;
+}
+
+.acf-flexible-content .layout .acf-fc-layout-order {
+    background: #eee;
+}
+
+.acf-fc-popup a {
+    font-size: 14px;
+    padding: 5px 14px;
+}
+
+.acf-fc-popup a:hover {
+    background: #1e50bc;
+    color: #fff;
+}
+
+.acf-fields>.acf-field {
+    border-top: 0;
+}
+
+.acf-fields>.acf-tab-wrap {
+    background: #ffffff;
+    margin-bottom: 10px;
+}
+
+.acf-tab-group li a {
+    padding: 5px 15px;
+    font-size: 13px;
+}
+
+.acf-fields>.acf-tab-wrap .acf-tab-group {
+    border-bottom: none;
+    background-color: #eee;
+}
+
+.acf-fields>.acf-tab-wrap .acf-tab-group li a {
+    background: #eee!important;
+    border: none;
+    border-radius: 0;
+    margin-right: 0!important;
+    padding: 8px 15px;
+}
+
+.acf-tab-wrap.-left .acf-tab-group li a {
+    color: #1e50bc;
+    border-radius: 0;
+    border: none!important;
+    background: #f9f9f9!important;
+}
+
+.acf-tab-wrap.-left .acf-tab-group li a:hover {
+    color: #1e50bc;
+    background: #f1f1f1!important;
+}
+
+.acf-fields>.acf-tab-wrap .acf-tab-group li.active a {
+    background: #ffffff!important;
+    border-radius: 4px 4px 0 0;
+}
+
+.acf-image-uploader .image-wrap img {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+a.acf-icon.dark {
+    background: #111;
+}
+
+a.acf-icon.dark:hover {
+    background: #1e50bc;
+    color: #fff!important;
+}
+
+a.acf-icon:hover {
+    background: #1e50bc;
+}
+
+.acf-settings-wrap .mce-top-part::before {
+    box-shadow: none;
+}
+
+.acf-settings-wrap  #major-publishing-actions {
+    clear: both;
+    border-top: none;
+    background: #ffffff;
+}
+
+.edit-post-layout .acf-postbox {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.edit-post-layout .acf-postbox.closed {
+    background-color: #f5f5f5;
+}
+
+.edit-post-layout .acf-postbox:last-child {
+    margin-bottom: 3rem;
+}
+
+.edit-post-layout .acf-postbox>.hndle .acf-hndle-cog {
+    display: none;
+}
+
+.edit-post-layout .acf-fields>.acf-field {
+    border: none!important;
+}
+
+.acf-fields.-sidebar:before {
+    border: none;
+    background: #f9f9f9;
+    z-index: 1;
+}
+
+body .acf-fields.-sidebar {
+    padding: 0.1px 0 0 20% !important;
+}
+
+.leverage-icon-item[role=treeitem] {
+    outline: 0;
+    margin: 5px 5px 0px;
+    padding: 7.5px 10px!important;
+    display: flex;
+    align-items: center;
+}
+
+.leverage-icon-item[role=treeitem]:last-child {
+    margin-bottom: 5px;
+}
+
+.leverage-icon-item[role=treeitem] i {
+    font-size: 16px;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+}
+
+/* #endregion Support */
+
+/*----------------------------------------------
+2. OCDI
+----------------------------------------------*/
+
+/* #region OCDI */
+
+h1.ocdi__title {
+    margin-bottom: 25px;
+    font-size: 23px;
+    font-weight: 400;
+    padding: 9px 0 4px 0;
+    line-height: 1.3;
+}
+
+h1.ocdi__title:before {
+    content: none;
+}
+
+@media (min-width: 1120px) {
+    .ocdi__gl-item {
+        width: calc(25% - 30px);
+        margin: 0 30px 30px 0;
+    }
+}
+
+.ocdi__gl-item-footer--with-preview h4.ocdi__gl-item-title {
+    width: 100%;
+    margin: 5px 0 20px;
+    display: block;
+    line-height: 1.5;
+    text-align: center;
+}
+
+a.ocdi__gl-item-button.button {
+    margin: 0 5px 20px;
+    text-align: center;
+    width: calc(50% - 10px);
+    display: inline-block;
+}
+
+button.ocdi__gl-item-button.button.button-primary.js-ocdi-gl-import-data {
+    margin: 0 5px 20px;
+    text-align: center;
+    width: calc(50% - 10px);
+    display: inline-block;
+}
+
+.ocdi.acf-input .acf-notice p {
+    font-size: 17px;
+}
+
+.ocdi.acf-input .acf-notice {
+    position: relative;
+    display: block;
+    color: #fff;
+    margin: 5px 0 35px;
+    padding: 15px 35px;
+    color: #0073aa;
+    background: #e8edf8;
+}
+
+/* #endregion OCDI */

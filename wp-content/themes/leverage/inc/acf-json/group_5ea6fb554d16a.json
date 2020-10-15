@@ -1,0 +1,1732 @@
+{
+    "key": "group_5ea6fb554d16a",
+    "title": "General Settings",
+    "fields": [
+        {
+            "key": "field_5ea70069e3077",
+            "label": "News Section",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5eac479dd9a60",
+            "label": "Message",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "leverage-message-full",
+                "id": ""
+            },
+            "message": "<div class=\"acf-notice\"><p>Enable this option so that a section of recent posts is displayed throughout the site. You can override this individually when editing each page.<\/div>",
+            "new_lines": "",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5ea70090e3078",
+            "label": "Enable on Front Page",
+            "name": "enable_news_on_front_page",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ea700dee307b",
+            "label": "Enable on Pages",
+            "name": "enable_news_on_pages",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ea700a0e307a",
+            "label": "Enable on Posts",
+            "name": "enable_news_on_posts",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5eab3259e18e2",
+            "label": "Background Color",
+            "name": "news_background_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#eeeeee"
+        },
+        {
+            "key": "field_5eab3276e18e3",
+            "label": "Enable Dark Mode",
+            "name": "news_enable_dark_mode",
+            "type": "true_false",
+            "instructions": "Enable this option if the background color of this section is dark. This will make the texts white.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5eab3997e7aff",
+            "label": "Enable Separator Line",
+            "name": "news_enable_separator_line",
+            "type": "true_false",
+            "instructions": "Enable this option for a dash to be displayed below the section.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ea701580754a",
+            "label": "Title",
+            "name": "news_title",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Latest News",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ea7015809a1d",
+            "label": "Description",
+            "name": "news_description",
+            "type": "textarea",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "These are the Latest Posts from our Blog.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 4,
+            "new_lines": "wpautop"
+        },
+        {
+            "key": "field_5ea701580bee5",
+            "label": "Enable Button",
+            "name": "enable_news_button",
+            "type": "true_false",
+            "instructions": "Enable this option for a button to be displayed next to the title. This is useful for directing visitors to the blog's homepage.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ea7015810494",
+            "label": "Button Label",
+            "name": "news_button_label",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea701580bee5",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "VIEW ALL",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ea701581375d",
+            "label": "Button Icon",
+            "name": "news_button_icon",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea701580bee5",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "20",
+                "class": "leverage-icon",
+                "id": ""
+            },
+            "choices": {
+                "user": "user",
+                "people": "people",
+                "user-female": "user-female",
+                "user-follow": "user-follow",
+                "user-following": "user-following",
+                "user-unfollow": "user-unfollow",
+                "login": "login",
+                "logout": "logout",
+                "emotsmile": "emotsmile",
+                "phone": "phone",
+                "call-end": "call-end",
+                "call-in": "call-in",
+                "call-out": "call-out",
+                "map": "map",
+                "location-pin": "location-pin",
+                "direction": "direction",
+                "directions": "directions",
+                "compass": "compass",
+                "layers": "layers",
+                "menu": "menu",
+                "list": "list",
+                "options-vertical": "options-vertical",
+                "options": "options",
+                "arrow-down": "arrow-down",
+                "arrow-left": "arrow-left",
+                "arrow-right": "arrow-right",
+                "arrow-up": "arrow-up",
+                "arrow-up-circle": "arrow-up-circle",
+                "arrow-left-circle": "arrow-left-circle",
+                "arrow-right-circle": "arrow-right-circle",
+                "arrow-down-circle": "arrow-down-circle",
+                "check": "check",
+                "clock": "clock",
+                "plus": "plus",
+                "minus": "minus",
+                "close": "close",
+                "event": "event",
+                "exclamation": "exclamation",
+                "organization": "organization",
+                "trophy": "trophy",
+                "screen-smartphone": "screen-smartphone",
+                "screen-desktop": "screen-desktop",
+                "plane": "plane",
+                "notebook": "notebook",
+                "mustache": "mustache",
+                "mouse": "mouse",
+                "magnet": "magnet",
+                "energy": "energy",
+                "disc": "disc",
+                "cursor": "cursor",
+                "cursor-move": "cursor-move",
+                "crop": "crop",
+                "chemistry": "chemistry",
+                "speedometer": "speedometer",
+                "shield": "shield",
+                "screen-tablet": "screen-tablet",
+                "magic-wand": "magic-wand",
+                "hourglass": "hourglass",
+                "graduation": "graduation",
+                "ghost": "ghost",
+                "game-controller": "game-controller",
+                "fire": "fire",
+                "eyeglass": "eyeglass",
+                "envelope-open": "envelope-open",
+                "envelope-letter": "envelope-letter",
+                "bell": "bell",
+                "badge": "badge",
+                "anchor": "anchor",
+                "wallet": "wallet",
+                "vector": "vector",
+                "speech": "speech",
+                "puzzle": "puzzle",
+                "printer": "printer",
+                "present": "present",
+                "playlist": "playlist",
+                "pin": "pin",
+                "picture": "picture",
+                "handbag": "handbag",
+                "globe-alt": "globe-alt",
+                "globe": "globe",
+                "folder-alt": "folder-alt",
+                "folder": "folder",
+                "film": "film",
+                "feed": "feed",
+                "drop": "drop",
+                "drawer": "drawer",
+                "docs": "docs",
+                "doc": "doc",
+                "diamond": "diamond",
+                "cup": "cup",
+                "calculator": "calculator",
+                "bubbles": "bubbles",
+                "briefcase": "briefcase",
+                "book-open": "book-open",
+                "basket-loaded": "basket-loaded",
+                "basket": "basket",
+                "bag": "bag",
+                "action-undo": "action-undo",
+                "action-redo": "action-redo",
+                "wrench": "wrench",
+                "umbrella": "umbrella",
+                "trash": "trash",
+                "tag": "tag",
+                "support": "support",
+                "frame": "frame",
+                "size-fullscreen": "size-fullscreen",
+                "size-actual": "size-actual",
+                "shuffle": "shuffle",
+                "share-alt": "share-alt",
+                "share": "share",
+                "rocket": "rocket",
+                "question": "question",
+                "pie-chart": "pie-chart",
+                "pencil": "pencil",
+                "note": "note",
+                "loop": "loop",
+                "home": "home",
+                "grid": "grid",
+                "graph": "graph",
+                "microphone": "microphone",
+                "music-tone-alt": "music-tone-alt",
+                "music-tone": "music-tone",
+                "earphones-alt": "earphones-alt",
+                "earphones": "earphones",
+                "equalizer": "equalizer",
+                "like": "like",
+                "dislike": "dislike",
+                "control-start": "control-start",
+                "control-rewind": "control-rewind",
+                "control-play": "control-play",
+                "control-pause": "control-pause",
+                "control-forward": "control-forward",
+                "control-end": "control-end",
+                "volume-1": "volume-1",
+                "volume-2": "volume-2",
+                "volume-off": "volume-off",
+                "calendar": "calendar",
+                "bulb": "bulb",
+                "chart": "chart",
+                "ban": "ban",
+                "bubble": "bubble",
+                "camrecorder": "camrecorder",
+                "camera": "camera",
+                "cloud-download": "cloud-download",
+                "cloud-upload": "cloud-upload",
+                "envelope": "envelope",
+                "eye": "eye",
+                "flag": "flag",
+                "heart": "heart",
+                "info": "info",
+                "key": "key",
+                "link": "link",
+                "lock": "lock",
+                "lock-open": "lock-open",
+                "magnifier": "magnifier",
+                "magnifier-add": "magnifier-add",
+                "magnifier-remove": "magnifier-remove",
+                "paper-clip": "paper-clip",
+                "paper-plane": "paper-plane",
+                "power": "power",
+                "refresh": "refresh",
+                "reload": "reload",
+                "settings": "settings",
+                "star": "star",
+                "symbol-female": "symbol-female",
+                "symbol-male": "symbol-male",
+                "target": "target",
+                "credit-card": "credit-card",
+                "paypal": "paypal",
+                "social-tumblr": "social-tumblr",
+                "social-twitter": "social-twitter",
+                "social-facebook": "social-facebook",
+                "social-instagram": "social-instagram",
+                "social-linkedin": "social-linkedin",
+                "social-pinterest": "social-pinterest",
+                "social-github": "social-github",
+                "social-google": "social-google",
+                "social-reddit": "social-reddit",
+                "social-skype": "social-skype",
+                "social-dribbble": "social-dribbble",
+                "social-behance": "social-behance",
+                "social-foursqare": "social-foursqare",
+                "social-soundcloud": "social-soundcloud",
+                "social-spotify": "social-spotify",
+                "social-stumbleupon": "social-stumbleupon",
+                "social-youtube": "social-youtube",
+                "social-dropbox": "social-dropbox",
+                "social-vkontakte": "social-vkontakte",
+                "social-steam": "social-steam"
+            },
+            "default_value": [
+                "grid"
+            ],
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 1,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ea7015815bc7",
+            "label": "Button Target",
+            "name": "news_button_target",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea701580bee5",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Anchor Link": "Anchor Link",
+                "Internal Link": "Internal Link",
+                "External Link": "External Link",
+                "Inner Page": "Inner Page",
+                "Inner Post": "Inner Post"
+            },
+            "default_value": [
+                "Inner Page"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ea701580e04a",
+            "label": "Button URL",
+            "name": "news_button_url",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea701580bee5",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea7015815bc7",
+                        "operator": "==",
+                        "value": "Anchor Link"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5ea7015815bc7",
+                        "operator": "==",
+                        "value": "Internal Link"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5ea7015815bc7",
+                        "operator": "==",
+                        "value": "External Link"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#contact",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ec87c4d56251",
+            "label": "Button Page",
+            "name": "news_button_page",
+            "type": "page_link",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea701580bee5",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea7015815bc7",
+                        "operator": "==",
+                        "value": "Inner Page"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "allow_archives": 0,
+            "multiple": 0
+        },
+        {
+            "key": "field_5ec87c9856252",
+            "label": "Button Post",
+            "name": "news_button_post",
+            "type": "page_link",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea701580bee5",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea7015815bc7",
+                        "operator": "==",
+                        "value": "Inner Post"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "post"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "allow_archives": 0,
+            "multiple": 0
+        },
+        {
+            "key": "field_5ea6fb66a2b38",
+            "label": "Subscribe Section",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5eac52cc23e03",
+            "label": "Message",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "leverage-message-full",
+                "id": ""
+            },
+            "message": "<div class=\"acf-notice\"><p>Enable this option so that the subscriber form is displayed throughout the site. You can override this individually when editing each page.<\/div>",
+            "new_lines": "",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5ea6fc1aa2b3c",
+            "label": "Enable on Front Page",
+            "name": "enable_subscribe_on_front_page",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ea6fbaaa2b3a",
+            "label": "Enable on Pages",
+            "name": "enable_subscribe_on_pages",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ea6fc0ea2b3b",
+            "label": "Enable on Posts",
+            "name": "enable_subscribe_on_posts",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5eab328fe18e4",
+            "label": "Background Color",
+            "name": "subscribe_background_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#e5e5e5"
+        },
+        {
+            "key": "field_5eab3291e18e5",
+            "label": "Enable Dark Mode",
+            "name": "subscribe_enable_dark_mode",
+            "type": "true_false",
+            "instructions": "Enable this option if the background color of this section is dark. This will make the texts white.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5eab39bbe7b00",
+            "label": "Enable Separator Line",
+            "name": "subscribe_enable_separator_line",
+            "type": "true_false",
+            "instructions": "Enable this option for a dash to be displayed below the section.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ea6fd31ff4de",
+            "label": "Title",
+            "name": "subscribe_title",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Newsletter",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ea6fd7aff4df",
+            "label": "Description",
+            "name": "subscribe_description",
+            "type": "textarea",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Subscribe to our Newsletter to stay informed firsthand.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 4,
+            "new_lines": "wpautop"
+        },
+        {
+            "key": "field_5ea6fe6a4775b",
+            "label": "Sending Options",
+            "name": "subscribe_sending_options",
+            "type": "button_group",
+            "instructions": "Choose where subscriber data should be sent to.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Email Recipient": "Email Recipient",
+                "Webhook": "Webhook"
+            },
+            "allow_null": 0,
+            "default_value": "Email Recipient",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5ea6ff014775c",
+            "label": "Email Recipient",
+            "name": "subscribe_email_recipient",
+            "type": "email",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea6fe6a4775b",
+                        "operator": "==",
+                        "value": "Email Recipient"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "your@email.com",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5ea6ff2f4775d",
+            "label": "Webhook URL",
+            "name": "subscribe_webhook_url",
+            "type": "url",
+            "instructions": "The webhook option is recommended for integrations.",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea6fe6a4775b",
+                        "operator": "==",
+                        "value": "Webhook"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ea6fb97a2b39",
+            "label": "Form Section",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5eac5bfc5495b",
+            "label": "Message",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "leverage-message-full",
+                "id": ""
+            },
+            "message": "<div class=\"acf-notice\"><p>Enable this option so that the multi step form is displayed throughout the site. You can override this individually when editing each page.<\/div>",
+            "new_lines": "",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5ea7155308f15",
+            "label": "Enable on Front Page",
+            "name": "enable_form_on_front_page",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ea7154c08f14",
+            "label": "Enable on Pages",
+            "name": "enable_form_on_pages",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ea7154408f13",
+            "label": "Enable on Posts",
+            "name": "enable_form_on_posts",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5eab3303e18e6",
+            "label": "Background Color",
+            "name": "form_background_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#f5f5f5"
+        },
+        {
+            "key": "field_5eab3305e18e7",
+            "label": "Enable Dark Mode",
+            "name": "form_enable_dark_mode",
+            "type": "true_false",
+            "instructions": "Enable this option if the background color of this section is dark. This will make the texts white.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5eab39cee7b01",
+            "label": "Enable Separator Line",
+            "name": "form_enable_separator_line",
+            "type": "true_false",
+            "instructions": "Enable this option for a dash to be displayed below the section.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ea7153c08f12",
+            "label": "Sending Options",
+            "name": "form_sending_options",
+            "type": "button_group",
+            "instructions": "Choose where subscriber data should be sent to.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Email Recipient": "Email Recipient",
+                "Webhook": "Webhook"
+            },
+            "allow_null": 0,
+            "default_value": "Email Recipient",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5ea7152b08f0f",
+            "label": "Email Recipient",
+            "name": "form_email_recipient",
+            "type": "email",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea7153c08f12",
+                        "operator": "==",
+                        "value": "Email Recipient"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "your@email.com",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5ea7152708f0e",
+            "label": "Webhook URL",
+            "name": "form_webhook_url",
+            "type": "url",
+            "instructions": "The webhook option is recommended for integrations.",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea7153c08f12",
+                        "operator": "==",
+                        "value": "Webhook"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5eac5cfd431dd",
+            "label": "Form Steps",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5eac67080e2e0",
+            "label": "Message",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "leverage-message-full",
+                "id": ""
+            },
+            "message": "<div class=\"acf-notice\"><p>Here you can create up to 3 steps for the form. Enable it on the <code>form-options<\/code> tab or individually on each page.<\/div>",
+            "new_lines": "",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5eae008a82e50",
+            "label": "Success Message",
+            "name": "success_message",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Thank you.\r\n\r\nYour message has been sent successfully.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 2,
+            "new_lines": "br"
+        },
+        {
+            "key": "field_5eae016882e51",
+            "label": "Success Image",
+            "name": "success_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5eac6d1cde4d5",
+            "label": "Steps",
+            "name": "steps",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_5ea7153508f11",
+            "min": 1,
+            "max": 3,
+            "layout": "row",
+            "button_label": "Add Step",
+            "sub_fields": [
+                {
+                    "key": "field_5ea850a6e0540",
+                    "label": "Image",
+                    "name": "step_image",
+                    "type": "image",
+                    "instructions": "Each step needs an image that is positioned to the right of the form.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "jpg, jpeg, png, gif"
+                },
+                {
+                    "key": "field_5ecd3b2b9f542",
+                    "label": "Enable Video",
+                    "name": "enable_video",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5ecd3b2e9f543",
+                    "label": "Video URL",
+                    "name": "video_url",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ecd3b2b9f542",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "https:\/\/www.youtube.com\/watch?v=7e90gBu4pas",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5ea7153508f11",
+                    "label": "Title",
+                    "name": "step_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Let's Talk?",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5ea845f2eb0fe",
+                    "label": "Progressbar Title",
+                    "name": "step_progressbar_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Personal Details",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5ea7153108f10",
+                    "label": "Description",
+                    "name": "step_description",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Fill out the form below and we will contact you as soon as possible.",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": 2,
+                    "new_lines": "wpautop"
+                },
+                {
+                    "key": "field_5ea722de49135",
+                    "label": "Fields",
+                    "name": "step_fields",
+                    "type": "flexible_content",
+                    "instructions": "Add the fields that will be requested in this step.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layouts": {
+                        "layout_5ea7230acc5ff": {
+                            "key": "layout_5ea7230acc5ff",
+                            "name": "text_field",
+                            "label": "Text Field",
+                            "display": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5ea7231249137",
+                                    "label": "",
+                                    "name": "field",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                }
+                            ],
+                            "min": "",
+                            "max": ""
+                        },
+                        "layout_5ea7245f14f57": {
+                            "key": "layout_5ea7245f14f57",
+                            "name": "text_area_field",
+                            "label": "Text Area Field",
+                            "display": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5ea7245f14f58",
+                                    "label": "",
+                                    "name": "field",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                }
+                            ],
+                            "min": "",
+                            "max": ""
+                        },
+                        "layout_5ea7246814f59": {
+                            "key": "layout_5ea7246814f59",
+                            "name": "email_field",
+                            "label": "Email Field",
+                            "display": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5ea7246814f5a",
+                                    "label": "",
+                                    "name": "field",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                }
+                            ],
+                            "min": "",
+                            "max": ""
+                        },
+                        "layout_5ea724da14f5b": {
+                            "key": "layout_5ea724da14f5b",
+                            "name": "number_field",
+                            "label": "Number Field",
+                            "display": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5ea724da14f5c",
+                                    "label": "",
+                                    "name": "field",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                }
+                            ],
+                            "min": "",
+                            "max": ""
+                        },
+                        "layout_5ea7252bfae48": {
+                            "key": "layout_5ea7252bfae48",
+                            "name": "select_field",
+                            "label": "Select Field",
+                            "display": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5ecd39bd6f70c",
+                                    "label": "Info Option",
+                                    "name": "info_option",
+                                    "type": "text",
+                                    "instructions": "This text will be at the top of the Select Field.",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "Select an Option",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5ea7252bfae49",
+                                    "label": "",
+                                    "name": "field",
+                                    "type": "textarea",
+                                    "instructions": "Enter each choice on a new line.",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "maxlength": "",
+                                    "rows": "",
+                                    "new_lines": ""
+                                }
+                            ],
+                            "min": "",
+                            "max": ""
+                        }
+                    },
+                    "button_label": "Add Field",
+                    "min": "",
+                    "max": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5ea70a6708c4f",
+            "label": "Custom Feature",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5eac5d6bb3632",
+            "label": "Message",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "leverage-message-full",
+                "id": ""
+            },
+            "message": "<div class=\"acf-notice\"><p>Enable this option so that the custom feature is displayed throughout the site. You can override this individually when editing each page.<\/div>",
+            "new_lines": "",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5ea70a8c08c51",
+            "label": "Enable on Front Page",
+            "name": "enable_custom_on_front_page",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ea70a8808c50",
+            "label": "Enable on Pages",
+            "name": "enable_custom_on_pages",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ea70a8f08c52",
+            "label": "Enable on Posts",
+            "name": "enable_custom_on_posts",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5eab332fe18e8",
+            "label": "Background Color",
+            "name": "custom_background_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5eab3335e18e9",
+            "label": "Enable Dark Mode",
+            "name": "custom_enable_dark_mode",
+            "type": "true_false",
+            "instructions": "Enable this option if the background color of this section is dark. This will make the texts white.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5eab39dee7b02",
+            "label": "Enable Separator Line",
+            "name": "custom_enable_separator_line",
+            "type": "true_false",
+            "instructions": "Enable this option for a dash to be displayed below the section.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ea710e1cc5a7",
+            "label": "Enable Title",
+            "name": "enable_custom_title",
+            "type": "true_false",
+            "instructions": "Enabling the title, ensures that the section maintains the design pattern.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ea710a7cc5a5",
+            "label": "Title",
+            "name": "custom_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea710e1cc5a7",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ea710aacc5a6",
+            "label": "Description",
+            "name": "custom_description",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea710e1cc5a7",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 4,
+            "new_lines": "br"
+        },
+        {
+            "key": "field_5ea70ac908c53",
+            "label": "Custom",
+            "name": "custom",
+            "type": "wysiwyg",
+            "instructions": "Here you can create anything. Even use shortcodes from plugins, such as forms and galleries. On the pages you can choose individually to show this content or not.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-settings-general"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1590508519
+}

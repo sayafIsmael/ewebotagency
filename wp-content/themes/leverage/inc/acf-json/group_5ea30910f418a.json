@@ -1,0 +1,837 @@
+{
+    "key": "group_5ea30910f418a",
+    "title": "Page Settings",
+    "fields": [
+        {
+            "key": "field_5ea76453a5518",
+            "label": "Override General Settings",
+            "name": "override_general_settings",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68d32136a4",
+            "label": "Header & Hero Section",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ecc65b286603",
+            "label": "Message",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "leverage-message-full",
+                "id": ""
+            },
+            "message": "<div class=\"acf-notice\">\r\n    <p>The settings for all tabs will override the general options in <b><a href=\"admin.php?page=theme-settings-general\" target=\"_blank\">General Settings<\/a>.<\/b> As long as it is not the main Posts Page.<\/p>\r\n<\/div>",
+            "new_lines": "",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5eaa463643340",
+            "label": "Header Bg Color",
+            "name": "header_bg_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#111111"
+        },
+        {
+            "key": "field_5eaa466b43341",
+            "label": "Nav Item Color",
+            "name": "nav_item_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#f5f5f5"
+        },
+        {
+            "key": "field_5eb3237541d32",
+            "label": "Hero Bg Color",
+            "name": "hero_bg_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#111111"
+        },
+        {
+            "key": "field_5ecc6576a3088",
+            "label": "Enable Dark Mode",
+            "name": "enable_dark_mode",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5eaa476f0392b",
+            "label": "Logo Filter",
+            "name": "logo_filter",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68d90136a5",
+            "label": "News Section",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ea30912aae20",
+            "label": "Enable News",
+            "name": "enable_news",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68a6d5533d",
+            "label": "Background Color",
+            "name": "news_background_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea30912aae20",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#eeeeee"
+        },
+        {
+            "key": "field_5ec68b4c55342",
+            "label": "Enable Dark Mode",
+            "name": "news_enable_dark_mode",
+            "type": "true_false",
+            "instructions": "Enable this option if the background color of this section is dark. This will make the texts white.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea30912aae20",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68c3ee5866",
+            "label": "Enable Separator Line",
+            "name": "news_enable_separator_line",
+            "type": "true_false",
+            "instructions": "Enable this option for a dash to be displayed below the section.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea30912aae20",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68d9c136a6",
+            "label": "Subscribe Section",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ea30912a8d2a",
+            "label": "Enable Subscribe",
+            "name": "enable_subscribe",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68ac05533f",
+            "label": "Background Color",
+            "name": "subscribe_background_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea30912a8d2a",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#e5e5e5"
+        },
+        {
+            "key": "field_5ec68b5055343",
+            "label": "Enable Dark Mode",
+            "name": "subscribe_enable_dark_mode",
+            "type": "true_false",
+            "instructions": "Enable this option if the background color of this section is dark. This will make the texts white.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea30912a8d2a",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68c72e5867",
+            "label": "Enable Separator Line",
+            "name": "subscribe_enable_separator_line",
+            "type": "true_false",
+            "instructions": "Enable this option for a dash to be displayed below the section.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea30912a8d2a",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68db1136a7",
+            "label": "Form Section",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ea30912acc15",
+            "label": "Enable Form",
+            "name": "enable_form",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68ae355340",
+            "label": "Background Color",
+            "name": "form_background_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea30912acc15",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#f5f5f5"
+        },
+        {
+            "key": "field_5ec68b5555344",
+            "label": "Enable Dark Mode",
+            "name": "form_enable_dark_mode",
+            "type": "true_false",
+            "instructions": "Enable this option if the background color of this section is dark. This will make the texts white.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea30912acc15",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68c8ce5868",
+            "label": "Enable Separator Line",
+            "name": "form_enable_separator_line",
+            "type": "true_false",
+            "instructions": "Enable this option for a dash to be displayed below the section.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea30912acc15",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68dc1136a8",
+            "label": "Custom Section",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ea713d83a353",
+            "label": "Enable Custom",
+            "name": "enable_custom",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68af155341",
+            "label": "Background Color",
+            "name": "custom_background_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea713d83a353",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#f5f5f5"
+        },
+        {
+            "key": "field_5ec68b5955345",
+            "label": "Enable Dark Mode",
+            "name": "custom_enable_dark_mode",
+            "type": "true_false",
+            "instructions": "Enable this option if the background color of this section is dark. This will make the texts white.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea713d83a353",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec68c9fe5869",
+            "label": "Enable Separator Line",
+            "name": "custom_enable_separator_line",
+            "type": "true_false",
+            "instructions": "Enable this option for a dash to be displayed below the section.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea713d83a353",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ecc498d57d2f",
+            "label": "Sidebar",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ecc499157d30",
+            "label": "Disable Sidebar",
+            "name": "disable_sidebar",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea76453a5518",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1590520918
+}
