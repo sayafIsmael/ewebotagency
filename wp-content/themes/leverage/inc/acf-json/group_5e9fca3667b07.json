@@ -1,0 +1,1192 @@
+{
+    "key": "group_5e9fca3667b07",
+    "title": "Header & Menu",
+    "fields": [
+        {
+            "key": "field_5eac267913e19",
+            "label": "Search",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5e9fca449c978",
+            "label": "Search Icon",
+            "name": "search_icon",
+            "type": "true_false",
+            "instructions": "Enable this option for a search icon to be displayed in the navigation menu.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5eb2257f0ad1d",
+            "label": "Title",
+            "name": "search_title",
+            "type": "text",
+            "instructions": "The search button opens a modal. Enter his title.",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5e9fca449c978",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "What are you looking for?",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5eb2260a0ad1e",
+            "label": "Description",
+            "name": "search_description",
+            "type": "text",
+            "instructions": "The search button opens a modal. Enter his description to help visitors.",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5e9fca449c978",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Type a few words to find the available content.",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5eac268f13e1a",
+            "label": "Call to Action",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ea05caea1096",
+            "label": "Enable Button",
+            "name": "enable_button",
+            "type": "true_false",
+            "instructions": "Enable this option for the primary button to be displayed in the navigation menu.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ea05d65a1097",
+            "label": "Button Label",
+            "name": "button_label",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea05caea1096",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "CONTACT US",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ea0682dc310d",
+            "label": "Button Icon",
+            "name": "button_icon",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea05caea1096",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "20",
+                "class": "leverage-icon",
+                "id": ""
+            },
+            "choices": {
+                "user": "user",
+                "people": "people",
+                "user-female": "user-female",
+                "user-follow": "user-follow",
+                "user-following": "user-following",
+                "user-unfollow": "user-unfollow",
+                "login": "login",
+                "logout": "logout",
+                "emotsmile": "emotsmile",
+                "phone": "phone",
+                "call-end": "call-end",
+                "call-in": "call-in",
+                "call-out": "call-out",
+                "map": "map",
+                "location-pin": "location-pin",
+                "direction": "direction",
+                "directions": "directions",
+                "compass": "compass",
+                "layers": "layers",
+                "menu": "menu",
+                "list": "list",
+                "options-vertical": "options-vertical",
+                "options": "options",
+                "arrow-down": "arrow-down",
+                "arrow-left": "arrow-left",
+                "arrow-right": "arrow-right",
+                "arrow-up": "arrow-up",
+                "arrow-up-circle": "arrow-up-circle",
+                "arrow-left-circle": "arrow-left-circle",
+                "arrow-right-circle": "arrow-right-circle",
+                "arrow-down-circle": "arrow-down-circle",
+                "check": "check",
+                "clock": "clock",
+                "plus": "plus",
+                "minus": "minus",
+                "close": "close",
+                "event": "event",
+                "exclamation": "exclamation",
+                "organization": "organization",
+                "trophy": "trophy",
+                "screen-smartphone": "screen-smartphone",
+                "screen-desktop": "screen-desktop",
+                "plane": "plane",
+                "notebook": "notebook",
+                "mustache": "mustache",
+                "mouse": "mouse",
+                "magnet": "magnet",
+                "energy": "energy",
+                "disc": "disc",
+                "cursor": "cursor",
+                "cursor-move": "cursor-move",
+                "crop": "crop",
+                "chemistry": "chemistry",
+                "speedometer": "speedometer",
+                "shield": "shield",
+                "screen-tablet": "screen-tablet",
+                "magic-wand": "magic-wand",
+                "hourglass": "hourglass",
+                "graduation": "graduation",
+                "ghost": "ghost",
+                "game-controller": "game-controller",
+                "fire": "fire",
+                "eyeglass": "eyeglass",
+                "envelope-open": "envelope-open",
+                "envelope-letter": "envelope-letter",
+                "bell": "bell",
+                "badge": "badge",
+                "anchor": "anchor",
+                "wallet": "wallet",
+                "vector": "vector",
+                "speech": "speech",
+                "puzzle": "puzzle",
+                "printer": "printer",
+                "present": "present",
+                "playlist": "playlist",
+                "pin": "pin",
+                "picture": "picture",
+                "handbag": "handbag",
+                "globe-alt": "globe-alt",
+                "globe": "globe",
+                "folder-alt": "folder-alt",
+                "folder": "folder",
+                "film": "film",
+                "feed": "feed",
+                "drop": "drop",
+                "drawer": "drawer",
+                "docs": "docs",
+                "doc": "doc",
+                "diamond": "diamond",
+                "cup": "cup",
+                "calculator": "calculator",
+                "bubbles": "bubbles",
+                "briefcase": "briefcase",
+                "book-open": "book-open",
+                "basket-loaded": "basket-loaded",
+                "basket": "basket",
+                "bag": "bag",
+                "action-undo": "action-undo",
+                "action-redo": "action-redo",
+                "wrench": "wrench",
+                "umbrella": "umbrella",
+                "trash": "trash",
+                "tag": "tag",
+                "support": "support",
+                "frame": "frame",
+                "size-fullscreen": "size-fullscreen",
+                "size-actual": "size-actual",
+                "shuffle": "shuffle",
+                "share-alt": "share-alt",
+                "share": "share",
+                "rocket": "rocket",
+                "question": "question",
+                "pie-chart": "pie-chart",
+                "pencil": "pencil",
+                "note": "note",
+                "loop": "loop",
+                "home": "home",
+                "grid": "grid",
+                "graph": "graph",
+                "microphone": "microphone",
+                "music-tone-alt": "music-tone-alt",
+                "music-tone": "music-tone",
+                "earphones-alt": "earphones-alt",
+                "earphones": "earphones",
+                "equalizer": "equalizer",
+                "like": "like",
+                "dislike": "dislike",
+                "control-start": "control-start",
+                "control-rewind": "control-rewind",
+                "control-play": "control-play",
+                "control-pause": "control-pause",
+                "control-forward": "control-forward",
+                "control-end": "control-end",
+                "volume-1": "volume-1",
+                "volume-2": "volume-2",
+                "volume-off": "volume-off",
+                "calendar": "calendar",
+                "bulb": "bulb",
+                "chart": "chart",
+                "ban": "ban",
+                "bubble": "bubble",
+                "camrecorder": "camrecorder",
+                "camera": "camera",
+                "cloud-download": "cloud-download",
+                "cloud-upload": "cloud-upload",
+                "envelope": "envelope",
+                "eye": "eye",
+                "flag": "flag",
+                "heart": "heart",
+                "info": "info",
+                "key": "key",
+                "link": "link",
+                "lock": "lock",
+                "lock-open": "lock-open",
+                "magnifier": "magnifier",
+                "magnifier-add": "magnifier-add",
+                "magnifier-remove": "magnifier-remove",
+                "paper-clip": "paper-clip",
+                "paper-plane": "paper-plane",
+                "power": "power",
+                "refresh": "refresh",
+                "reload": "reload",
+                "settings": "settings",
+                "star": "star",
+                "symbol-female": "symbol-female",
+                "symbol-male": "symbol-male",
+                "target": "target",
+                "credit-card": "credit-card",
+                "paypal": "paypal",
+                "social-tumblr": "social-tumblr",
+                "social-twitter": "social-twitter",
+                "social-facebook": "social-facebook",
+                "social-instagram": "social-instagram",
+                "social-linkedin": "social-linkedin",
+                "social-pinterest": "social-pinterest",
+                "social-github": "social-github",
+                "social-google": "social-google",
+                "social-reddit": "social-reddit",
+                "social-skype": "social-skype",
+                "social-dribbble": "social-dribbble",
+                "social-behance": "social-behance",
+                "social-foursqare": "social-foursqare",
+                "social-soundcloud": "social-soundcloud",
+                "social-spotify": "social-spotify",
+                "social-stumbleupon": "social-stumbleupon",
+                "social-youtube": "social-youtube",
+                "social-dropbox": "social-dropbox",
+                "social-vkontakte": "social-vkontakte",
+                "social-steam": "social-steam"
+            },
+            "default_value": [
+                "rocket"
+            ],
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ea060d16d0d1",
+            "label": "Button Target",
+            "name": "button_target",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea05caea1096",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Anchor Link": "Anchor Link",
+                "External Link": "External Link",
+                "Inner Page": "Inner Page",
+                "Inner Post": "Inner Post"
+            },
+            "default_value": [
+                "Inner Page"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ea05d8ca1098",
+            "label": "Button URL",
+            "name": "button_url",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea05caea1096",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea060d16d0d1",
+                        "operator": "==",
+                        "value": "Anchor Link"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5ea060d16d0d1",
+                        "operator": "==",
+                        "value": "External Link"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#contact",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ea305c41d83a",
+            "label": "Button Page",
+            "name": "button_page",
+            "type": "page_link",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea060d16d0d1",
+                        "operator": "==",
+                        "value": "Inner Page"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "allow_archives": 0,
+            "multiple": 0
+        },
+        {
+            "key": "field_5ea305cb1d83b",
+            "label": "Button Post",
+            "name": "button_post",
+            "type": "page_link",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea060d16d0d1",
+                        "operator": "==",
+                        "value": "Inner Post"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "post"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "allow_archives": 0,
+            "multiple": 0
+        },
+        {
+            "key": "field_5eac26a113e1b",
+            "label": "Custom Action",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ea06a0330018",
+            "label": "Custom Action",
+            "name": "custom_action",
+            "type": "true_false",
+            "instructions": "Enable this option to create a custom action. An icon will be displayed in the navigation menu.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ea06a6330019",
+            "label": "Custom Icon",
+            "name": "custom_icon",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea06a0330018",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "20",
+                "class": "leverage-icon",
+                "id": ""
+            },
+            "choices": {
+                "user": "user",
+                "people": "people",
+                "user-female": "user-female",
+                "user-follow": "user-follow",
+                "user-following": "user-following",
+                "user-unfollow": "user-unfollow",
+                "login": "login",
+                "logout": "logout",
+                "emotsmile": "emotsmile",
+                "phone": "phone",
+                "call-end": "call-end",
+                "call-in": "call-in",
+                "call-out": "call-out",
+                "map": "map",
+                "location-pin": "location-pin",
+                "direction": "direction",
+                "directions": "directions",
+                "compass": "compass",
+                "layers": "layers",
+                "menu": "menu",
+                "list": "list",
+                "options-vertical": "options-vertical",
+                "options": "options",
+                "arrow-down": "arrow-down",
+                "arrow-left": "arrow-left",
+                "arrow-right": "arrow-right",
+                "arrow-up": "arrow-up",
+                "arrow-up-circle": "arrow-up-circle",
+                "arrow-left-circle": "arrow-left-circle",
+                "arrow-right-circle": "arrow-right-circle",
+                "arrow-down-circle": "arrow-down-circle",
+                "check": "check",
+                "clock": "clock",
+                "plus": "plus",
+                "minus": "minus",
+                "close": "close",
+                "event": "event",
+                "exclamation": "exclamation",
+                "organization": "organization",
+                "trophy": "trophy",
+                "screen-smartphone": "screen-smartphone",
+                "screen-desktop": "screen-desktop",
+                "plane": "plane",
+                "notebook": "notebook",
+                "mustache": "mustache",
+                "mouse": "mouse",
+                "magnet": "magnet",
+                "energy": "energy",
+                "disc": "disc",
+                "cursor": "cursor",
+                "cursor-move": "cursor-move",
+                "crop": "crop",
+                "chemistry": "chemistry",
+                "speedometer": "speedometer",
+                "shield": "shield",
+                "screen-tablet": "screen-tablet",
+                "magic-wand": "magic-wand",
+                "hourglass": "hourglass",
+                "graduation": "graduation",
+                "ghost": "ghost",
+                "game-controller": "game-controller",
+                "fire": "fire",
+                "eyeglass": "eyeglass",
+                "envelope-open": "envelope-open",
+                "envelope-letter": "envelope-letter",
+                "bell": "bell",
+                "badge": "badge",
+                "anchor": "anchor",
+                "wallet": "wallet",
+                "vector": "vector",
+                "speech": "speech",
+                "puzzle": "puzzle",
+                "printer": "printer",
+                "present": "present",
+                "playlist": "playlist",
+                "pin": "pin",
+                "picture": "picture",
+                "handbag": "handbag",
+                "globe-alt": "globe-alt",
+                "globe": "globe",
+                "folder-alt": "folder-alt",
+                "folder": "folder",
+                "film": "film",
+                "feed": "feed",
+                "drop": "drop",
+                "drawer": "drawer",
+                "docs": "docs",
+                "doc": "doc",
+                "diamond": "diamond",
+                "cup": "cup",
+                "calculator": "calculator",
+                "bubbles": "bubbles",
+                "briefcase": "briefcase",
+                "book-open": "book-open",
+                "basket-loaded": "basket-loaded",
+                "basket": "basket",
+                "bag": "bag",
+                "action-undo": "action-undo",
+                "action-redo": "action-redo",
+                "wrench": "wrench",
+                "umbrella": "umbrella",
+                "trash": "trash",
+                "tag": "tag",
+                "support": "support",
+                "frame": "frame",
+                "size-fullscreen": "size-fullscreen",
+                "size-actual": "size-actual",
+                "shuffle": "shuffle",
+                "share-alt": "share-alt",
+                "share": "share",
+                "rocket": "rocket",
+                "question": "question",
+                "pie-chart": "pie-chart",
+                "pencil": "pencil",
+                "note": "note",
+                "loop": "loop",
+                "home": "home",
+                "grid": "grid",
+                "graph": "graph",
+                "microphone": "microphone",
+                "music-tone-alt": "music-tone-alt",
+                "music-tone": "music-tone",
+                "earphones-alt": "earphones-alt",
+                "earphones": "earphones",
+                "equalizer": "equalizer",
+                "like": "like",
+                "dislike": "dislike",
+                "control-start": "control-start",
+                "control-rewind": "control-rewind",
+                "control-play": "control-play",
+                "control-pause": "control-pause",
+                "control-forward": "control-forward",
+                "control-end": "control-end",
+                "volume-1": "volume-1",
+                "volume-2": "volume-2",
+                "volume-off": "volume-off",
+                "calendar": "calendar",
+                "bulb": "bulb",
+                "chart": "chart",
+                "ban": "ban",
+                "bubble": "bubble",
+                "camrecorder": "camrecorder",
+                "camera": "camera",
+                "cloud-download": "cloud-download",
+                "cloud-upload": "cloud-upload",
+                "envelope": "envelope",
+                "eye": "eye",
+                "flag": "flag",
+                "heart": "heart",
+                "info": "info",
+                "key": "key",
+                "link": "link",
+                "lock": "lock",
+                "lock-open": "lock-open",
+                "magnifier": "magnifier",
+                "magnifier-add": "magnifier-add",
+                "magnifier-remove": "magnifier-remove",
+                "paper-clip": "paper-clip",
+                "paper-plane": "paper-plane",
+                "power": "power",
+                "refresh": "refresh",
+                "reload": "reload",
+                "settings": "settings",
+                "star": "star",
+                "symbol-female": "symbol-female",
+                "symbol-male": "symbol-male",
+                "target": "target",
+                "credit-card": "credit-card",
+                "paypal": "paypal",
+                "social-tumblr": "social-tumblr",
+                "social-twitter": "social-twitter",
+                "social-facebook": "social-facebook",
+                "social-instagram": "social-instagram",
+                "social-linkedin": "social-linkedin",
+                "social-pinterest": "social-pinterest",
+                "social-github": "social-github",
+                "social-google": "social-google",
+                "social-reddit": "social-reddit",
+                "social-skype": "social-skype",
+                "social-dribbble": "social-dribbble",
+                "social-behance": "social-behance",
+                "social-foursqare": "social-foursqare",
+                "social-soundcloud": "social-soundcloud",
+                "social-spotify": "social-spotify",
+                "social-stumbleupon": "social-stumbleupon",
+                "social-youtube": "social-youtube",
+                "social-dropbox": "social-dropbox",
+                "social-vkontakte": "social-vkontakte",
+                "social-steam": "social-steam"
+            },
+            "default_value": [
+                "rocket"
+            ],
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 1,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ea06a8e3001a",
+            "label": "Custom Target",
+            "name": "custom_target",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea06a0330018",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Anchor Link": "Anchor Link",
+                "External Link": "External Link",
+                "Inner Page": "Inner Page",
+                "Inner Post": "Inner Post"
+            },
+            "default_value": [
+                "Inner Page"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ea06aad3001b",
+            "label": "Custom URL",
+            "name": "custom_url",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea06a0330018",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ea06a8e3001a",
+                        "operator": "==",
+                        "value": "Anchor Link"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5ea06a8e3001a",
+                        "operator": "==",
+                        "value": "External Link"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#signin",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ea3057a1d838",
+            "label": "Custom Page",
+            "name": "custom_page",
+            "type": "page_link",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea06a8e3001a",
+                        "operator": "==",
+                        "value": "Inner Page"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "allow_archives": 0,
+            "multiple": 0
+        },
+        {
+            "key": "field_5ea3059b1d839",
+            "label": "Custom Post",
+            "name": "custom_post",
+            "type": "page_link",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea06a8e3001a",
+                        "operator": "==",
+                        "value": "Inner Post"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "post"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "allow_archives": 0,
+            "multiple": 0
+        },
+        {
+            "key": "field_5eac271e13e1c",
+            "label": "Social Networks",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5e9fcb9655c83",
+            "label": "Social Icons",
+            "name": "social_icons",
+            "type": "true_false",
+            "instructions": "Enable this option to display social network icons in the navigation menu.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5e9fcfb4bdd86",
+            "label": "Social Networks",
+            "name": "social_networks",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5e9fcb9655c83",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_5e9fcfc0f3a91": {
+                    "key": "layout_5e9fcfc0f3a91",
+                    "name": "facebook",
+                    "label": "Facebook",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e9fcfdfbdd87",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5e9fd00fbdd88": {
+                    "key": "layout_5e9fd00fbdd88",
+                    "name": "instagram",
+                    "label": "Instagram",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e9fd00fbdd89",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5ea0588eb173a": {
+                    "key": "layout_5ea0588eb173a",
+                    "name": "twitter",
+                    "label": "Twitter",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ea0588eb173b",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5ea058f1b173c": {
+                    "key": "layout_5ea058f1b173c",
+                    "name": "youtube",
+                    "label": "Youtube",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ea058f1b173d",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5ea05903b173e": {
+                    "key": "layout_5ea05903b173e",
+                    "name": "linkedin",
+                    "label": "Linkedin",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ea05903b173f",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5ea05a0cb1744": {
+                    "key": "layout_5ea05a0cb1744",
+                    "name": "pinterest",
+                    "label": "Pinterest",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ea05a0cb1745",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5ea05916b1740": {
+                    "key": "layout_5ea05916b1740",
+                    "name": "tumblr",
+                    "label": "Tumblr",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ea05916b1741",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                },
+                "layout_5ea0591fb1742": {
+                    "key": "layout_5ea0591fb1742",
+                    "name": "dribbble",
+                    "label": "Dribbble",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ea0591fb1743",
+                            "label": "",
+                            "name": "url",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "1"
+                }
+            },
+            "button_label": "Add New",
+            "min": 1,
+            "max": 8
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-settings-header"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1590374317
+}

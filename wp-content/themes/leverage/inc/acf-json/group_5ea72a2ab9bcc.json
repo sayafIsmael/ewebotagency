@@ -1,0 +1,79 @@
+{
+    "key": "group_5ea72a2ab9bcc",
+    "title": "Advanced",
+    "fields": [
+        {
+            "key": "field_5eac791668c20",
+            "label": "Message",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "leverage-message-full",
+                "id": ""
+            },
+            "message": "<div class=\"acf-notice\"><p>Here you can add additional JavaScript and CSS. Your code will be loaded on all pages before the <code>body<\/code> tag.<\/div>",
+            "new_lines": "",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5ea72a8f2ac83",
+            "label": "Custom CSS",
+            "name": "custom_css",
+            "type": "textarea",
+            "instructions": "It is not necessary to include the <code>style<\/code> tag.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 8,
+            "new_lines": ""
+        },
+        {
+            "key": "field_5ea72aa12ac84",
+            "label": "Custom JS",
+            "name": "custom_js",
+            "type": "textarea",
+            "instructions": "It is not necessary to include the <code>script<\/code> tag.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 8,
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-settings-advanced"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1588649698
+}

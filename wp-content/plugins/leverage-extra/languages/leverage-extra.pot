@@ -1,0 +1,101 @@
+# Copyright (C) 2020 Codings
+# This file is distributed under the same license as the Leverage Extra plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Leverage Extra 1.0.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/leverage-extra\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-07-21T17:01:04+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: leverage-extra\n"
+
+#. Plugin Name of the plugin
+msgid "Leverage Extra"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://leverage.codings.dev"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin includes additional settings, widgets and forms in Leverage Theme"
+msgstr ""
+
+#. Author of the plugin
+msgid "Codings"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://codings.dev"
+msgstr ""
+
+#: ajax-request.php:47
+msgid "New contact in "
+msgstr ""
+
+#: ajax-request.php:101
+msgid "From "
+msgstr ""
+
+#: leverage-extra.php:47
+#: leverage-extra.php:48
+msgid "Header & Menu"
+msgstr ""
+
+#: leverage-extra.php:54
+#: leverage-extra.php:55
+msgid "Footer Section"
+msgstr ""
+
+#: leverage-extra.php:61
+#: leverage-extra.php:62
+msgid "General Settings"
+msgstr ""
+
+#: leverage-extra.php:68
+#: leverage-extra.php:69
+msgid "Advanced"
+msgstr ""
+
+#: leverage-extra.php:75
+#: leverage-extra.php:76
+msgid "Support"
+msgstr ""
+
+#: leverage-extra.php:90
+msgid "\"Leverage Extra\" plugin is not supported by this theme. "
+msgstr ""
+
+#: leverage-extra.php:91
+msgid "Please use this plugin with Leverage Theme, or deactivate it."
+msgstr ""
+
+#: widgets.php:36
+msgid "By "
+msgstr ""
+
+#: widgets.php:75
+#: widgets.php:152
+msgid "Title:"
+msgstr ""
+
+#: widgets.php:160
+msgid "Instagram:"
+msgstr ""
+
+#: widgets.php:168
+msgid "Facebook:"
+msgstr ""
+
+#: widgets.php:176
+msgid "Linkedin:"
+msgstr ""
+
+#: widgets.php:184
+msgid "Twitter:"
+msgstr ""

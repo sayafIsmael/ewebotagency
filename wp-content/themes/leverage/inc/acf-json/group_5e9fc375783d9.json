@@ -1,0 +1,80 @@
+{
+    "key": "group_5e9fc375783d9",
+    "title": "Branding",
+    "fields": [
+        {
+            "key": "field_5e9fc37e24254",
+            "label": "Site Identity",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "leverage-message",
+                "id": ""
+            },
+            "message": "<div class=\"acf-notice\"><p><a href=\"customize.php\">Click here<\/a> to customize the Logo,  Site Title, Tagline and Site Icon.<\/p><\/div>",
+            "new_lines": "",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5ec87dd10c31c",
+            "label": "Logo Height",
+            "name": "logo_height",
+            "type": "range",
+            "instructions": "Adjust the height of the logo, if defined.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 35,
+            "min": 5,
+            "max": 100,
+            "step": 1,
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5eaa41fe8e278",
+            "label": "Logo Filter",
+            "name": "logo_filter",
+            "type": "true_false",
+            "instructions": "Enable this option for the Logo to be 100% white. This is useful when the header is dark.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-settings-branding"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1590454273
+}

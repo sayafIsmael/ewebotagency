@@ -1,0 +1,41 @@
+{
+    "key": "group_5eac7bb58e8e2",
+    "title": "Support",
+    "fields": [
+        {
+            "key": "field_5eac7bbae26a4",
+            "label": "Help Guide",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "leverage-message-full",
+                "id": ""
+            },
+            "message": "<div class=\"acf-notice\"><p><a href=\"https:\/\/leverage.codings.dev\/wordpress\/docs\" target=\"_blank\">Click here<\/a> to access online documentation.<\/p><\/div>",
+            "new_lines": "",
+            "esc_html": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-settings-support"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1589434101
+}

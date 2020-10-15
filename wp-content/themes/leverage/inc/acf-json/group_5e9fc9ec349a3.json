@@ -1,0 +1,179 @@
+{
+    "key": "group_5e9fc9ec349a3",
+    "title": "Design & Colors",
+    "fields": [
+        {
+            "key": "field_5eaba4f266c1f",
+            "label": "Message",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "leverage-message-full",
+                "id": ""
+            },
+            "message": "<div class=\"acf-notice\"><p>Choose one of the pre-made colors or make your own combination. You can configure options individually for each page.<\/div>",
+            "new_lines": "",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5ea0aedcff419",
+            "label": "Theme Color",
+            "name": "theme_color",
+            "type": "button_group",
+            "instructions": "Theme colors are applied to the main title, buttons and general styling.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "default": "Orange",
+                "css\/theme-pink.css": "Pink",
+                "css\/theme-indigo.css": "Indigo",
+                "css\/theme-blue.css": "Blue",
+                "css\/theme-light-blue.css": "Light Blue",
+                "css\/theme-green.css": "Green",
+                "css\/theme-light-green.css": "Light Green",
+                "custom-color": "Custom Color"
+            },
+            "allow_null": 0,
+            "default_value": "Orange",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5eaa3f85a1347",
+            "label": "Header Bg Color",
+            "name": "header_bg_color",
+            "type": "color_picker",
+            "instructions": "The background color of the header will be applied to the navigation bar only when the page is scrolled.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#111111"
+        },
+        {
+            "key": "field_5eaa4024a1348",
+            "label": "Nav Item Color",
+            "name": "nav_item_color",
+            "type": "color_picker",
+            "instructions": "Choose a color in contrast to the header ensuring that the reading is pleasant.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#f5f5f5"
+        },
+        {
+            "key": "field_5eb3215787f31",
+            "label": "Hero Bg Color",
+            "name": "hero_bg_color",
+            "type": "color_picker",
+            "instructions": "The background of the hero section will be applied to the main banner.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#111111"
+        },
+        {
+            "key": "field_5ecc64409d7ab",
+            "label": "Enable Dark Mode",
+            "name": "enable_dark_mode",
+            "type": "true_false",
+            "instructions": "Enable this option if the background color of the hero section is dark. This will make the texts white.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ea0b1898a98f",
+            "label": "Primary Color",
+            "name": "primary_color",
+            "type": "color_picker",
+            "instructions": "Here you can choose a primary color that will be combined with the secondary color to form a linear gradient.",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea0aedcff419",
+                        "operator": "==",
+                        "value": "custom-color"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        },
+        {
+            "key": "field_5eaa1e14b03d3",
+            "label": "Secondary Color",
+            "name": "secondary_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ea0aedcff419",
+                        "operator": "==",
+                        "value": "custom-color"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-settings-design"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1590455874
+}
